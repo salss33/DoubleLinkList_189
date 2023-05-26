@@ -14,8 +14,11 @@ class DoubleLinkedList {
 private:
 	Node* START;
 public:
-	DoubleLinkedList()
+	DoubleLinkedList();
 	void addNode();
 	bool search(int rollNo);
 	bool deleteNode(int rollNo);
+	bool listEmpty();
+	void traverse();
+	void reutraverse();
 };
