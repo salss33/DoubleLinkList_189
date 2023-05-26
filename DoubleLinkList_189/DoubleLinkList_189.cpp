@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-class node {
+class Node {
 public:
 	int noMhs;
 	string name;
@@ -13,4 +13,5 @@ public:
 class DoubleLinkedList {
 private:
 	Node* START;
+public:
 };
