@@ -15,4 +15,7 @@ private:
 	Node* START;
 public:
 	DoubleLinkedList()
+	void addNode();
+	bool search(int rollNo);
+	bool deleteNode(int rollNo);
 };
