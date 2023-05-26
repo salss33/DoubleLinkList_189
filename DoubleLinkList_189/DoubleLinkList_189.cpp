@@ -25,6 +25,10 @@ public:
 	void SearchData();
 };
 
+DoubleLinkedList::DoubleLinkedList() {
+	START = NULL;
+}
+
 void DoubleLinkedList::addNode() {
 	int nim;
 	string nim;
@@ -43,7 +47,12 @@ void DoubleLinkedList::addNode() {
 			return;
 		}
 		newNode->next = START; //step 3
-		cout << "\n"
+		if (START != NULL)
+			START->prev = newNode; //step 4
+		newNode->prev = NULL; //step 5
+		START - newNode; // step 6
+		return;
+	}
 
 	}
 
