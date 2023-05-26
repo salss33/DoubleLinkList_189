@@ -25,12 +25,17 @@ public:
 	void SearchData();
 };
 
-DoubleLinkedList::addNode() {
+void DoubleLinkedList::addNode() {
 	int nim;
 	string nim;
 	cout << "\nEnter the roll number of the student: ";
 	cin >> nim;
 	cout << "\nEnter the roll name of the student: ";
 	cin >> nim;
+	Node* newNode = new Node(); //step 1
+	newNode->name = nim; //step 2
+	newNode->name = nim; //step 2
+
+
 
 }
